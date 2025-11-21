@@ -35,11 +35,12 @@ def envia_email(desti_email, assunto, texto, attachment_path=None):
 
 # Example usage
 desti_email = "your_email@example.com"  #Quem irá receber
-assunto = "Test Email from Python"      #Assunto do 
+assunto = "Test Email from Python"      #Assunto do e-mail
 texto = """
 <p>Olá</p>
 <p>Test e-mail.</p>
-"""
+"""                                     #Texto do e-mail
 #attachment_path = "C:/path/to/your/file.txt"  # Optional, para enviar Anexo
+
 
 envia_email(desti_email, assunto, texto, attachment_path)
